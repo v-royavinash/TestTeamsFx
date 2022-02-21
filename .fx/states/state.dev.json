@@ -1,0 +1,41 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "needCreateResourceGroup": true,
+        "resourceNameSuffix": "ed021b",
+        "resourceGroupName": "rg-MIFTEOC-template-dev",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "3bd59fd1-66d2-476f-bb16-3923b2dc01fd",
+        "subscriptionName": "Teams QCO CAG Dev Environment",
+        "location": "West Central US",
+        "teamsAppTenantId": "6d0e1783-54e2-4829-a4e8-9406fb27816e"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "1e08e151-102a-43ce-b143-22a12f8876d9",
+        "teamsAppUpdatedAt": 1645368790491
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "mifteocdev9b6e851tab.z4.web.core.windows.net",
+        "endpoint": "https://mifteocdev9b6e851tab.z4.web.core.windows.net",
+        "storageResourceId": "/subscriptions/3bd59fd1-66d2-476f-bb16-3923b2dc01fd/resourceGroups/rg-MIFTEOC-template-dev/providers/Microsoft.Storage/storageAccounts/mifteocdev9b6e851tab"
+    },
+    "fx-resource-identity": {
+        "identityName": "mifteocdev9b6e851",
+        "identityResourceId": "/subscriptions/3bd59fd1-66d2-476f-bb16-3923b2dc01fd/resourceGroups/rg-MIFTEOC-template-dev/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mifteocdev9b6e851",
+        "identityClientId": "7013f409-4370-46c9-b24c-4615ddfb8347"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "5e386060-2430-4f36-818e-43293adec991",
+        "objectId": "d8a4c112-4750-4bb3-bc72-43151616f244",
+        "oauth2PermissionScopeId": "c1d18f75-f943-47ca-92b3-3827006965a3",
+        "tenantId": "6d0e1783-54e2-4829-a4e8-9406fb27816e",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/6d0e1783-54e2-4829-a4e8-9406fb27816e",
+        "applicationIdUris": "api://mifteocdev9b6e851tab.z4.web.core.windows.net/5e386060-2430-4f36-818e-43293adec991",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}"
+    },
+    "fx-resource-simple-auth": {
+        "endpoint": "https://mifteocdev9b6e851simpleauth.azurewebsites.net",
+        "webAppResourceId": "/subscriptions/3bd59fd1-66d2-476f-bb16-3923b2dc01fd/resourceGroups/rg-MIFTEOC-template-dev/providers/Microsoft.Web/sites/mifteocdev9b6e851simpleAuth"
+    }
+}
